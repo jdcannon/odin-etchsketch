@@ -8,15 +8,16 @@
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
   height: 100vh;
+  padding: 1em;
 }
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: calc(100vh - 2em);
-  width: calc(100vh - 2em);
+  height: calc(100vh - 5em);
+  width: calc(100vh - 5em);
   padding: 1em;
 }
 .container div{
